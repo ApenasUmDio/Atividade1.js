@@ -5,6 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        button{
+            margin: 5px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        #Mensagem{
+            margin-top: 20px;
+            padding: 10px;
+            color: darkblue;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,7 +27,7 @@
     <button onclick="Limpar()">Limpar</button>
     <button onclick="mostrarMensagem()">Botão.</button>
 
-    <div id="Mensagem"> #############</div>
+    <div id="Mensagem"></div>
 
     <script>
         function exibirMensagem(){
