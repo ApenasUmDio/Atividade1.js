@@ -10,6 +10,8 @@
 <body>
 
     <button onclick="exibirMensagem()">BUTAO!</button>
+    <button onclick="Limpar()">Limpar</button>
+    <button onclick="mostrarMensagem()">Botão.</button>
 
     <div id="Mensagem"> #############</div>
 
@@ -17,6 +19,13 @@
         function exibirMensagem(){
             var parte = document.getElementById("Mensagem")
             parte.innerHTML="NAAAAAAAAAAO, Você acionou o BUTAO!"
+        }
+        function mostrarMensagem(){
+            var parte = document.getElementById("Mensagem")
+            parte.innerHTML="Você acionou o Botão.(q chato da sua parte)"}
+        function Limpar(){
+            var parte = document.getElementById("Mensagem")
+            parte.innerHTML=""
         }
     </script>
 
